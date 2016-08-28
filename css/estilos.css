@@ -1,0 +1,165 @@
+h1 { 
+font-size: 100px;
+text-align: center;
+
+}
+
+
+.header{background: rgba(62,135,218,.5);
+background: url(../imagenes/fav.jpg);
+margin: 0;
+padding:0;
+
+
+}
+
+.header, div, img{text-align: right;
+	top: 20px;
+
+}
+
+
+.menu{	
+	width: 100%;
+	background: rgba(62,135,218,.1);
+	margin: 0;
+	padding: 0;
+	 }
+.menu li{ display : inline-block; }
+
+.menu li a{	font-size: 20px;
+	text-decoration: none;
+	color: #D4D5E1;
+	padding: 10px, 20px;
+	margin: 20px 40px 20px 40px;
+	font-weight: bold;}
+
+.menu li a:hover {	background: rgba(62,135,218,.5);} 
+
+
+
+body{ 
+	background:url(../imagenes/fondo4.jpg);
+	width: 100%;
+}
+
+
+
+.section {
+	background: rgba(62,135,218, .5);
+	width: 68%;
+	padding: 3px;
+	font-weight: bold;
+	line-height: 21px;
+	word-spacing: 2px;
+	}
+
+
+.aside{
+	background: rgba(62,135,218,.5);
+	width: 28%;
+	padding: 10px;
+	border: 20px;
+		}
+
+.enlaces { 	list-style: none;
+word-spacing: 3px;
+line-height: 21px;}
+
+.enlaces a:hover {
+	text-decoration: underline;
+	background: #B3B3B7;
+	color: #2232C8;
+}
+
+.enlaces li a{
+	list-style-type: square;
+	list-style-position: inside;
+	font-weight: bold; 
+	font-size: 18px;
+	color: #000;
+}
+
+
+footer{
+	background: rgba(62,135,218,.5);
+	text-align: center;
+		}
+
+.veneno{
+	float: left;
+}
+.wrapper{
+		display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+
+.fotos{
+color: #D4D5E1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.videos{
+	color: #D4D5E1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.historias{
+	color: #000;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+background: rgba(62,135,218,.5);
+
+}
+
+
+.historias, article, h2, h3{font-size: 15px
+}
+
+.musica{color: #000;
+font-weight: bold;
+background: rgba(62,135,218,.5);
+}
+
+
+.lujosos{
+	color: #D4D5E1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+.tunning {
+	color: #D4D5E1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;}
+
+
+
+
+
+
